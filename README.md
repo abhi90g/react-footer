@@ -1,7 +1,7 @@
 # Allergan Challenge  
 ## Build Instructions  
-clone this repository using <code>git clone https://github.com/abhi90g/react-footer.git </code>  
-<code>npm install</code>
+clone this repository using <code>git clone https://github.com/abhi90g/react-footer.git </code>   
+<code>npm install</code>  
 <code>npm start</code>  
   
 ## Live Version  
