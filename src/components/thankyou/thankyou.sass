@@ -1,0 +1,64 @@
+@import '../../mq.sass'
+
+.thankyouComponent
+    +desktop
+        display: flex
+        margin: 50px 50px
+    +tabletL
+        display: flex
+    +tabletP
+        display: block
+        margin: 40px auto
+        text-align: center
+    +mobile
+        display: block
+        text-align: center
+        margin: 50px auto
+
+    .congratsText
+        font-style: normal
+        color: #B6FDBF
+        +desktop
+            font-size: 80px
+            flex: 1
+        +tabletL
+            font-size: 60px
+            line-height: 100px
+        +tabletP
+            font-size: 50px
+            line-height: 60px
+            margin-bottom: 20px
+        +mobile
+            font-size: 36px
+            line-height: 59px
+            margin-bottom: 10px
+
+    div
+        .thankyouText
+            font-style: normal
+            font-weight: bold
+            color: #94AEBF
+            +desktop
+                font-size: 32px
+                line-height: 32px
+            +tablets
+                font-size: 28px
+                line-height: 32px
+            +mobile
+                font-size: 24px
+                line-height: 30px
+
+        .newsText
+            font-weight: 300
+            color: #94AEBF
+            line-height: normal
+            font-style: normal
+            +desktop
+                font-size: 26px
+                margin-top: 14px
+            +tablets
+                font-size: 20px
+                margin-top: 16px
+            +mobile
+                font-size: 18px
+                margin-top: 23px

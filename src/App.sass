@@ -1,0 +1,27 @@
+
+@import './mq.sass'
+@import url('https://fonts.googleapis.com/css?family=Open+Sans')
+
+* 
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+body
+    background-color: gray
+
+.footer
+    background-color: #120F23
+    position: absolute
+    width: 100%
+    bottom: 0
+    font-family: 'Open Sans'
+    +desktop
+        height: 212px
+    +tabletL
+        height: 212px
+    +tabletP
+        height: 240px
+    +mobile
+       height: 300px
+
